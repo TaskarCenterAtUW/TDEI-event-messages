@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "messageId": {
+        "type": "string"
+      },
+      "messageType": {
+        "type": "string",
+        "enum": ["gtfspathwayvalidation"]
+      },
+      "publishedDate": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "tdei_org_id": {
+            "type": "string"
+          },
+          "tdei_station_id": {
+            "type": "string"
+          },
+          "collected_by": {
+            "type": "string"
+          },
+          "collection_method": {
+            "type": "string"
+          },
+          "file_upload_path": {
+            "type": "string"
+          },
+          "user_id": {
+            "type": "string"
+          },
+          "collection_date": {
+            "type": "string"
+          },
+          "valid_from": {
+            "type": "string"
+          },
+          "valid_to": {
+            "type": "string"
+          },
+          "data_source": {
+            "type": "string"
+          },
+          "is_valid": {
+            "type": "boolean"
+          },
+          "validation_message": {
+            "type": "string"
+          },
+          "validation_time": {
+            "type": "integer"
+          },
+          "pathways_schema_version": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true,
+        "required": [
+          "tdei_org_id",
+          "tdei_station_id",
+          "collected_by",
+          "collection_method",
+          "file_upload_path",
+          "user_id",
+          "collection_date",
+          "valid_from",
+          "valid_to",
+          "data_source",
+          "is_valid",
+          "validation_message",
+          "validation_time",
+          "pathways_schema_version"
+        ]
+      }
+    },
+    "additionalProperties": true,
+    "required": [
+      "messageId",
+      "messageType",
+      "publishedDate",
+      "message",
+      "data"
+    ]
+  }
