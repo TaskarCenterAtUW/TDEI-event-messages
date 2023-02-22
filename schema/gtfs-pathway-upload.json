@@ -1,73 +1,142 @@
 {
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "type": "object",
-    "properties": {
-      "publishedDate": {
-        "type": "string"
-      },
-      "messageType": {
-        "enum": ["gtfspathways"],
-        "type":"string"
-      },
-      "message": {
-        "type": "string"
-      },
-      "data": {
-        "type": "object",
-        "properties": {
-          "tdei_org_id": {
-            "type": "string"
-          },
-          "tdei_station_id": {
-            "type": "string"
-          },
-          "collected_by": {
-            "type": "string"
-          },
-          "collection_date": {
-            "type": "string"
-          },
-          "collection_method": {
-            "type": "string"
-          },
-          "valid_from": {
-            "type": "string"
-          },
-          "valid_to": {
-            "type": "string"
-          },
-          "data_source": {
-            "type": "string"
-          },
-          "pathways_schema_version": {
-            "type": "string"
-          },
-          "file_upload_path": {
-            "type": "string"
-          },
-          "user_id": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "tdei_org_id",
-          "tdei_station_id",
-          "collected_by",
-          "collection_date",
-          "collection_method",
-          "valid_from",
-          "valid_to",
-          "data_source",
-          "pathways_schema_version",
-          "file_upload_path",
-          "user_id"
-        ]
-      }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "messageType": {
+      "type": "string"
     },
-    "required": [
-      "publishedDate",
-      "messageType",
-      "message",
-      "data"
-    ]
-  }
+    "publishedDate": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "stage": {
+          "type": "string"
+        },
+        "request": {
+          "type": "object",
+          "properties": {
+            "tdei_org_id": {
+              "type": "string"
+            },
+            "tdei_service_id": {
+              "type": "string"
+            },
+            "collected_by": {
+              "type": "string"
+            },
+            "collection_date": {
+              "type": "string"
+            },
+            "collection_method": {
+              "type": "string"
+            },
+            "valid_from": {
+              "type": "string"
+            },
+            "valid_to": {
+              "type": "string"
+            },
+            "data_source": {
+              "type": "string"
+            },
+            "polygon": {
+              "type": "object",
+              "properties": {
+                "coordinates": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "coordinates"
+              ]
+            },
+            "flex_schema_version": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "tdei_org_id",
+            "tdei_service_id",
+            "collected_by",
+            "collection_date",
+            "collection_method",
+            "valid_from",
+            "valid_to",
+            "data_source",
+            "polygon",
+            "flex_schema_version"
+          ]
+        },
+        "meta": {
+          "type": "object",
+          "properties": {
+            "file_upload_path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "file_upload_path"
+          ]
+        },
+        "response": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "message": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "success",
+            "message"
+          ]
+        },
+        "tdei_record_id": {
+          "type": "string"
+        },
+        "tdei_org_id": {
+          "type": "string"
+        },
+        "user_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "stage",
+        "request",
+        "meta",
+        "response",
+        "tdei_record_id",
+        "tdei_org_id",
+        "user_id"
+      ]
+    }
+  },
+  "required": [
+    "messageType",
+    "publishedDate",
+    "data"
+  ]
+}
