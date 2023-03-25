@@ -5,7 +5,7 @@
     "stage": "Pathways-Upload",
     "request": {
       "tdei_org_id": "0b41ebc5-350c-42d3-90af-3af4ad3628fb",
-      "tdei_service_id": "8EF615EF-28AB-444B-82D3-0E62E3692382",
+      "tdei_station_id": "5e20eb06-a950-4a5d-a9ca-1e390a801b8a",
       "collected_by": "6D3E5B8C-FB16-4B6A-9436-72FD24756CC9",
       "collection_date": "2022-11-22T09:43:07.978Z",
       "collection_method": "manual",
