@@ -8,6 +8,15 @@
     "publishedDate": {
       "type": "string"
     },
+    "tdei_record_id": {
+      "type": "string"
+    },
+    "tdei_org_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
     "data": {
       "type": "object",
       "properties": {
@@ -29,10 +38,7 @@
             "collection_method": {
               "type": "string"
             },
-            "valid_from": {
-              "type": "string"
-            },
-            "valid_to": {
+            "publication_date": {
               "type": "string"
             },
             "data_source": {
@@ -41,30 +47,63 @@
             "polygon": {
               "type": "object",
               "properties": {
-                "coordinates": {
+                "type": {
+                  "type": "string"
+                },
+                "features": {
                   "type": "array",
                   "items": [
                     {
-                      "type": "array",
-                      "items": [
-                        {
-                          "type": "array",
-                          "items": [
-                            {
-                              "type": "number"
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "geometry": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string"
                             },
-                            {
-                              "type": "number"
+                            "coordinates": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "number"
+                                        },
+                                        {
+                                          "type": "number"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
+                          },
+                          "required": [
+                            "type",
+                            "coordinates"
                           ]
                         }
+                      },
+                      "required": [
+                        "type",
+                        "geometry"
                       ]
                     }
                   ]
                 }
               },
               "required": [
-                "coordinates"
+                "type",
+                "features"
               ]
             },
             "osw_schema_version": {
@@ -76,8 +115,7 @@
             "collected_by",
             "collection_date",
             "collection_method",
-            "valid_from",
-            "valid_to",
+            "publication_date",
             "data_source",
             "polygon",
             "osw_schema_version"
@@ -108,31 +146,22 @@
             "success",
             "message"
           ]
-        },
-        "tdei_record_id": {
-          "type": "string"
-        },
-        "tdei_org_id": {
-          "type": "string"
-        },
-        "user_id": {
-          "type": "string"
         }
       },
       "required": [
         "stage",
         "request",
         "meta",
-        "response",
-        "tdei_record_id",
-        "tdei_org_id",
-        "user_id"
+        "response"
       ]
     }
   },
   "required": [
     "messageType",
     "publishedDate",
+    "tdei_record_id",
+    "tdei_org_id",
+    "user_id",
     "data"
   ]
 }
