@@ -17,7 +17,7 @@
         "request": {
           "type": "object",
           "properties": {
-            "tdei_org_id": {
+            "tdei_project_group_id": {
               "type": "string"
             },
             "tdei_service_id": {
@@ -108,7 +108,7 @@
             }
           },
           "required": [
-            "tdei_org_id",
+            "tdei_project_group_id",
             "tdei_service_id",
             "collected_by",
             "collection_date",
@@ -149,7 +149,7 @@
         "tdei_record_id": {
           "type": "string"
         },
-        "tdei_org_id": {
+        "tdei_project_group_id": {
           "type": "string"
         },
         "user_id": {
@@ -162,7 +162,7 @@
         "meta",
         "response",
         "tdei_record_id",
-        "tdei_org_id",
+        "tdei_project_group_id",
         "user_id"
       ]
     }
