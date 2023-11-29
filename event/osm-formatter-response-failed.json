@@ -1,0 +1,12 @@
+
+{
+    "messageType": "osw-formatter-response",
+    "data":{
+        "sourceUrl":"https://tdeisamplestorage.blob.core.windows.net/osw/formatter/uid/valid_c8c76e89f30944d2b2abd2491bd95337.zip",
+        "jobId":"42",
+        "status":"failed",
+        "formattedUrl":"", 
+        "message":"Error occured during the conversion.. (details)"
+
+    }
+}

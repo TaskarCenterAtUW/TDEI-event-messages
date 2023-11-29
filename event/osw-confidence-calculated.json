@@ -1,0 +1,7 @@
+{
+    "jobId":"",
+    "confidence_level":"<number>",
+    "confidence_library_version":"<string>",
+    "status":"<finished or failed>",
+    "message":"<any error messages if calculation failed>"
+}

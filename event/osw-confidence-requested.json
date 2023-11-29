@@ -1,0 +1,6 @@
+{
+    "jobId":"<auto-incremented jobId>",
+    "data_file":"<url to the data zip file in TDEI blob storage>",
+    "meta_file":"<url to the meta file in TDEI blob storage>",
+    "trigger_type":"<manual, release, scheduled>"
+}
