@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "messageType": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "jobId": {
+            "type": "string"
+          },
+          "data_file": {
+            "type": "string"
+          },
+          "meta_file": {
+            "type": "string"
+          },
+          "trigger_type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "jobId",
+          "data_file",
+          "meta_file",
+          "trigger_type"
+        ]
+      }
+    },
+    "required": [
+      "messageType",
+      "data"
+    ]
+  }

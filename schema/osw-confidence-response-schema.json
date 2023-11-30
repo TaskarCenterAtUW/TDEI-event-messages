@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "messageType": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "jobId": {
+            "type": "string"
+          },
+          "confidence_level": {
+            "type": "string"
+          },
+          "confidence_library_version": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "jobId",
+          "confidence_level",
+          "confidence_library_version",
+          "status",
+          "message"
+        ]
+      }
+    },
+    "required": [
+      "messageType",
+      "data"
+    ]
+  }
