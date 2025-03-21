@@ -1,0 +1,14 @@
+{
+    "messageId": "a84ab44d-31ce-461e-872f-e557d445720a",
+    "messageType": "build_osw_osm_dataset_download|osw_compression",
+    "publishedDate": "2025-03-18T11:04:23.830Z",
+    "message": null,
+    "data": {
+        "input_urls": [
+            "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/cbad98af-ea96-4ed2-b584-d75c085f27e7/a35e82cb-f6ca-48f0-b598-e28b0b5e297d/osw-valid.zip",
+            "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/cbad98af-ea96-4ed2-b584-d75c085f27e7/a35e82cb-f6ca-48f0-b598-e28b0b5e297d/metadata.json",
+            "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/cbad98af-ea96-4ed2-b584-d75c085f27e7/a35e82cb-f6ca-48f0-b598-e28b0b5e297d/changeset.zip"
+        ],
+        "output_path": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/cbad98af-ea96-4ed2-b584-d75c085f27e7/a35e82cb-f6ca-48f0-b598-e28b0b5e297d/zip/a35e82cb-f6ca-48f0-b598-e28b0b5e297d.osw.zip"
+    }
+}

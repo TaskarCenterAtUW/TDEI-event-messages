@@ -1,0 +1,15 @@
+{
+    "messageId": "f83256ac-377c-4da1-9f47-60c38c7d5333",
+    "messageType": "osw_union_dataset|osw_union",
+    "publishedDate": "2025-03-18T11:50:32.530Z",
+    "message": null,
+    "data": {
+        "service": "union_dataset",
+        "user_id": "c59d29b6-a063-4249-943f-d320d15ac9ab",
+        "parameters": {
+            "tdei_dataset_id_one": "b759fee3-ff39-4d7f-ba50-7bba14bada74",
+            "tdei_dataset_id_two": "831a62f0-f020-403c-b6cd-ea0ec9ca2489",
+            "proximity": 0.5
+        }
+    }
+}

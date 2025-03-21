@@ -1,0 +1,22 @@
+{
+    "messageId": "a5ddcaa8-c442-49fb-ae6b-16979ed49791",
+    "messageType": "osw_spatial_join|osw_spatial_join",
+    "publishedDate": "2025-03-18T11:52:39.526Z",
+    "message": null,
+    "data": {
+        "service": "spatial_join",
+        "user_id": "b98b8fcc-9669-49e0-b956-e1c9380250f3",
+        "parameters": {
+            "target_dataset_id": "fa8e12ea-6b0c-4d3e-8b38-5b87b268e76b",
+            "target_dimension": "edge",
+            "source_dataset_id": "0d661b69495d47fb838862edf699fe09",
+            "source_dimension": "point",
+            "join_condition": "ST_Contains(ST_Buffer(geometry_target, 5), geometry_source)",
+            "join_filter_target": "highway='footway' AND footway='sidewalk'",
+            "join_filter_source": "highway='street_lamp'",
+            "aggregate": [
+                "ARRAY_AGG(highway) as my_highway"
+            ]
+        }
+    }
+}
