@@ -1,0 +1,10 @@
+{
+  "messageId": "500fc008-f4f2-4ea4-8b5e-d0f5d66ba168",
+  "messageType": "flex_validation_only|flex_validation_only",
+  "publishedDate": "2025-03-21T07:12:00.888Z",
+  "message": null,
+  "data": {
+    "user_id": "4c9dbc9c-dacf-4b15-9904-4858695b91b2",
+    "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/gtfsflex/jobs/validation/2025/3/2d09f59e-890a-441a-8428-49cc90b04185/flex-valid.zip"
+  }
+}

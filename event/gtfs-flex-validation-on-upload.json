@@ -1,0 +1,11 @@
+{
+  "messageId": "160373ed-abe6-4aee-a8cc-e2ca4eab8b2e",
+  "messageType": "flex_upload|flex_upload_validation",
+  "publishedDate": "2025-03-21T07:08:25.561Z",
+  "message": null,
+  "data": {
+    "user_id": "c59d29b6-a063-4249-943f-d320d15ac9ab",
+    "tdei_project_group_id": "1baed964-9792-49f5-ba98-0f22856f0537",
+    "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/gtfsflex/2025/3/1baed964-9792-49f5-ba98-0f22856f0537/5057dadd-1f9f-4822-9c7a-c1b6cc610dd3/flex-valid.zip"
+  }
+}

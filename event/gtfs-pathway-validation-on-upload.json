@@ -1,0 +1,11 @@
+{
+  "messageId": "777f0420-616f-4cd6-9ab8-af94ee77e3a8",
+  "messageType": "pathways_upload|pathways_upload_validation",
+  "publishedDate": "2025-03-21T06:44:28.658Z",
+  "message": null,
+  "data": {
+    "user_id": "fd83010a-3758-4cb9-9fdf-22e703240cff",
+    "tdei_project_group_id": "fcb10473-0975-4495-b976-af6e95f3120a",
+    "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/gtfspathways/2025/3/fcb10473-0975-4495-b976-af6e95f3120a/fe15be02-61e9-4265-b7f4-4b68f1d6800c/pathways-valid.zip"
+  }
+}

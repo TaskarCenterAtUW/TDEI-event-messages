@@ -1,0 +1,11 @@
+{
+    "messageId": "b8b481ca-281d-405b-8c4f-0cbc91316f9d",
+    "messageType": "osw_upload|osw_extract_load",
+    "publishedDate": "2025-03-16T21:06:20.341Z",
+    "message": null,
+    "data": {
+        "tdei_dataset_id": "416d57c8-19e4-4d2f-81f7-6cb4a3c55854",
+        "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/5fe5536b-5ada-409b-a348-fc3317ba2fb2/416d57c8-19e4-4d2f-81f7-6cb4a3c55854/wa.seattle.zip",
+        "data_type": "osw"
+    }
+}

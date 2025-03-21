@@ -1,0 +1,12 @@
+{
+    "messageId": "c8a1de00-0464-4dde-80f8-f1216dd2c65e",
+    "messageType": "osw_formatting_on_demand|osw_osm_formatting_ON_DEMAND",
+    "publishedDate": "2025-03-20T13:17:55.509Z",
+    "message": null,
+    "data": {
+        "jobId": 10271,
+        "source": "osw",
+        "target": "osm",
+        "sourceUrl": "https://tdeisamplestorage.blob.core.windows.net/osw/jobs/formatting/2025/3/a2511d7d-21ae-4f98-9b3a-829824b9b031/osw_qm.zip"
+    }
+}

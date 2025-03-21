@@ -1,0 +1,10 @@
+{
+    "messageId": "c00fc2c6-8120-41ad-868d-07514c5bc2b9",
+    "messageType": "pathways_validation_only|pathways_validation_only",
+    "publishedDate": "2025-03-21T06:46:08.876Z",
+    "message": null,
+    "data": {
+        "user_id": "fd83010a-3758-4cb9-9fdf-22e703240cff",
+        "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/gtfspathways/jobs/validation/2025/3/caf3ecde-1a07-4a18-8ff9-0e078ff87231/pathways-valid.zip"
+    }
+}

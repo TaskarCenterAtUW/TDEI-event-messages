@@ -1,0 +1,14 @@
+{
+    "messageId": "c4e5f903-06f8-4eec-bd61-aab4e0bdd543",
+    "messageType": "osw_dataset_road_tag|osw_dataset_road_tag",
+    "publishedDate": "2025-03-18T11:10:42.795Z",
+    "message": null,
+    "data": {
+        "service": "dataset_tag_road",
+        "user_id": "e98819c5-7b73-4d15-8379-f10cb886f5d6",
+        "parameters": {
+            "source_dataset_id": "f5fd7445fbbf4f248ea1096f0e17b7b3",
+            "target_dataset_id": "a5b669df-e3b9-478b-8863-06b28595fbcd"
+        }
+    }
+}

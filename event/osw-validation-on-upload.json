@@ -1,0 +1,11 @@
+{
+    "messageId": "691425f8-86a6-49c2-8a13-b53d2183edf7",
+    "messageType": "osw_upload|osw_validation",
+    "publishedDate": "2025-03-21T06:51:14.216Z",
+    "message": null,
+    "data": {
+        "user_id": "b98b8fcc-9669-49e0-b956-e1c9380250f3",
+        "tdei_project_group_id": "1baed964-9792-49f5-ba98-0f22856f0537",
+        "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/1baed964-9792-49f5-ba98-0f22856f0537/13d033fa-b6ef-439a-a9ad-e4019e44d57d/osw-valid.zip"
+    }
+}

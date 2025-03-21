@@ -1,0 +1,19 @@
+{
+    "messageId": "40a59f6c-02fc-4735-b757-fc8bd905cd77",
+    "messageType": "osm_dataset_bbox|osm_dataset_bbox",
+    "publishedDate": "2025-03-18T11:08:44.253Z",
+    "message": null,
+    "data": {
+        "service": "bbox_intersect",
+        "user_id": "b98b8fcc-9669-49e0-b956-e1c9380250f3",
+        "parameters": {
+            "tdei_dataset_id": "f5fd7445fbbf4f248ea1096f0e17b7b3",
+            "bbox": [
+                -122.264913,
+                47.558543,
+                -122.10549,
+                47.691327
+            ]
+        }
+    }
+}
