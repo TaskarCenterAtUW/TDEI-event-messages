@@ -1,0 +1,17 @@
+{
+  "messageId": "08e8d843-19e2-4c24-8368-9b7ff38e4b6a",
+  "messageType": "osw_upload|osw_osm_formatting",
+  "publishedDate": "2025-03-21T06:52:41.069Z",
+  "data": {
+    "tdei_project_group_id": "1baed964-9792-49f5-ba98-0f22856f0537",
+    "file_upload_path": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/1baed964-9792-49f5-ba98-0f22856f0537/44a06619-f1dd-461b-bcc7-11b7c385e639/osw-valid.zip",
+    "source_url": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/1baed964-9792-49f5-ba98-0f22856f0537/44a06619-f1dd-461b-bcc7-11b7c385e639/osw-valid.zip",
+    "formatted_url": "https://tdeisamplestorage.blob.core.windows.net/osw/2025/3/1baed964-9792-49f5-ba98-0f22856f0537/44a06619-f1dd-461b-bcc7-11b7c385e639/osw-valid.xml",
+    "success": true,
+    "message": "Formatting Successful!",
+    "package": {
+      "python-ms-core": "0.0.23",
+      "osm-osw-reformatter": "0.1.12"
+    }
+  }
+}
