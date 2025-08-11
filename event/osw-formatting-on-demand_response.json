@@ -1,0 +1,18 @@
+{
+  "messageId": "08e8d843-19e2-4c24-8368-9b7ff38e4b6a",
+  "messageType": "osw_upload|osw_osm_formatting",
+  "publishedDate": "2025-03-21T06:52:41.069Z",
+  "data": {
+    "jobId": 10271,
+    "source": "osw",
+    "target": "osm",
+    "sourceUrl": "https://tdeisamplestorage.blob.core.windows.net/osw/jobs/formatting/2025/3/a2511d7d-21ae-4f98-9b3a-829824b9b031/osw_qm.zip",
+    "formattedUrl": "https://tdeisamplestorage.blob.core.windows.net/osw/jobs/formatting/2025/3/a2511d7d-21ae-4f98-9b3a-829824b9b031/osw_qm.xml",
+    "success": true,
+    "message": "Formatting Successful!",
+    "package": {
+      "python-ms-core": "0.0.23",
+      "osm-osw-reformatter": "0.1.12"
+    }
+  }
+}
