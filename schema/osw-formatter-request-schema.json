@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "messageType": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "sourceUrl": {
+            "type": "string"
+          },
+          "jobId": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceUrl",
+          "jobId",
+          "source",
+          "target"
+        ]
+      }
+    },
+    "required": [
+      "messageType",
+      "data"
+    ]
+  }
